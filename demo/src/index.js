@@ -11,8 +11,8 @@
 
 var Matter = require('matter-js');
 var Examples = require('../../examples/index');
-var compare = require('./Compare').compare;
-var multi = require('./Multi').multi;
+// var compare = require('./Compare').compare;
+// var multi = require('./Multi').multi;
 var demo = require('./Demo').demo;
 
 // browser globals
@@ -24,21 +24,15 @@ window.Matter = Matter;
 var examples = Matter.Common.keys(Examples).map(function(id){
     return {
         id: id,
-        sourceLink: 'https://github.com/liabru/matter-js/blob/master/examples/' + id + '.js',
+        sourceLink: 'https://github.com/' + id + '.js',
         name: Examples[id].title, 
         init: Examples[id]
     };
 });
 
 // start the requested tool
-var isCompare = window.location.search.indexOf('compare') >= 0;
-var isMulti = window.location.search.indexOf('multi') >= 0;
-var isDev = __MATTER_IS_DEV__;
+// var isCompare = window.location.search.indexOf('compare') >= 0;
+// var isMulti = window.location.search.indexOf('multi') >= 0;
+var isDev = true;
 
-if (isCompare) {
-    compare(examples, isDev);
-} else if (isMulti) {
-    multi(examples, isDev);
-} else {
-    demo(examples, isDev);
-}
+demo(examples, isDev);
