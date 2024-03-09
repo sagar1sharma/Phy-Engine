@@ -55,7 +55,7 @@ Example.sprites = function() {
                 render: {
                     strokeStyle: '#ffffff',
                     sprite: {
-                        texture: './img/box.png'
+                        texture: './img/BPIT-logo.jpg'
                     }
                 }
             });
