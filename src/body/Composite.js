@@ -1,13 +1,4 @@
 /**
-* A composite is a collection of `Matter.Body`, `Matter.Constraint` and other `Matter.Composite` objects.
-*
-* They are a container that can represent complex objects made of multiple parts, even if they are not physically connected.
-* A composite could contain anything from a single body all the way up to a whole world.
-* 
-* When making any changes to composites, use the included functions rather than changing their properties directly.
-*
-* See the included usage [examples](https://github.com/liabru/matter-js/tree/master/examples).
-*
 * @class Composite
 */
 
@@ -23,8 +14,6 @@ var Body = require('./Body');
 (function() {
 
     /**
-     * Creates a new composite. The options parameter is an object that specifies any properties you wish to override the defaults.
-     * See the properites section below for detailed information on what you can pass via the `options` object.
      * @method create
      * @param {} [options]
      * @return {composite} A new composite
@@ -49,9 +38,6 @@ var Body = require('./Body');
     };
 
     /**
-     * Sets the composite's `isModified` flag. 
-     * If `updateParents` is true, all parents will be set (default: false).
-     * If `updateChildren` is true, all children will be set (default: false).
      * @private
      * @method setModified
      * @param {composite} composite
@@ -81,8 +67,6 @@ var Body = require('./Body');
     };
 
     /**
-     * Generic single or multi-add function. Adds a single or an array of body(s), constraint(s) or composite(s) to the given composite.
-     * Triggers `beforeAdd` and `afterAdd` events on the `composite`.
      * @method add
      * @param {composite} composite
      * @param {object|array} object A single or an array of body(s), constraint(s) or composite(s)
@@ -126,9 +110,6 @@ var Body = require('./Body');
     };
 
     /**
-     * Generic remove function. Removes one or many body(s), constraint(s) or a composite(s) to the given composite.
-     * Optionally searching its children recursively.
-     * Triggers `beforeRemove` and `afterRemove` events on the `composite`.
      * @method remove
      * @param {composite} composite
      * @param {object|array} object

@@ -32,7 +32,6 @@ Example.collisionFiltering = function() {
     var runner = Runner.create();
     Runner.run(runner, engine);
 
-    // define our categories (as bit fields, there are up to 32 available)
     var defaultCategory = 0x0001,
         redCategory = 0x0002,
         greenCategory = 0x0004,
@@ -140,7 +139,6 @@ Example.collisionFiltering = function() {
         max: { x: 800, y: 600 }
     });
 
-    // context for MatterTools.Demo
     return {
         engine: engine,
         runner: runner,

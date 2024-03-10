@@ -30,6 +30,5 @@ Matter.Vector = require('../geometry/Vector');
 Matter.Vertices = require('../geometry/Vertices');
 Matter.World = require('../body/World');
 
-// temporary back compatibility
 Matter.Engine.run = Matter.Runner.run;
 Matter.Common.deprecated(Matter.Engine, 'run', 'Engine.run ➤ use Matter.Runner.run(engine) instead');

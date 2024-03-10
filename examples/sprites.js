@@ -99,7 +99,6 @@ Example.sprites = function() {
         max: { x: 800, y: 600 }
     });
 
-    // context for MatterTools.Demo
     return {
         engine: engine,
         runner: runner,

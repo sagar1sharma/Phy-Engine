@@ -134,7 +134,6 @@ Example.doublePendulum = function() {
         max: { x: 700, y: 600 }
     });
 
-    // context for MatterTools.Demo
     return {
         engine: engine,
         runner: runner,

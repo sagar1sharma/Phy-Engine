@@ -1,6 +1,4 @@
 /**
-* The `Matter.Pairs` module contains methods for creating and manipulating collision pair sets.
-*
 * @class Pairs
 */
 

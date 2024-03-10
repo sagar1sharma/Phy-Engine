@@ -1,6 +1,4 @@
 /**
-* The `Matter.Contact` module contains methods for creating and manipulating collision contacts.
-*
 * @class Contact
 */
 

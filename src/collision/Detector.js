@@ -1,6 +1,4 @@
 /**
-* The `Matter.Detector` module contains methods for efficiently detecting collisions between a list of bodies using a broadphase algorithm.
-*
 * @class Detector
 */
 

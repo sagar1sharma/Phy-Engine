@@ -1,10 +1,4 @@
 /**
-* The `Matter.Collision` module contains methods for detecting collisions between a given pair of bodies.
-*
-* For efficient detection between a list of bodies, see `Matter.Detector` and `Matter.Query`.
-*
-* See `Matter.Engine` for collision events.
-*
 * @class Collision
 */
 

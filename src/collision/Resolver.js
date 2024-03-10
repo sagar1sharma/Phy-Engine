@@ -1,6 +1,4 @@
 /**
-* The `Matter.Resolver` module contains methods for resolving collision pairs.
-*
 * @class Resolver
 */
 

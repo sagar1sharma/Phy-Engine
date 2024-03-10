@@ -1,6 +1,4 @@
 /**
-* The `Matter.Mouse` module contains methods for creating and manipulating mouse inputs.
-*
 * @class Mouse
 */
 

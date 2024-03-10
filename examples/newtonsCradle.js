@@ -63,7 +63,6 @@ Example.newtonsCradle = function() {
         max: { x: 800, y: 600 }
     });
 
-    // context for MatterTools.Demo
     return {
         engine: engine,
         runner: runner,
@@ -87,7 +86,7 @@ Example.newtonsCradle.for = '>=0.14.2';
 * @param {number} number
 * @param {number} size
 * @param {number} length
-* @return {composite} A new composite newtonsCradle body
+* @return {composite}
 */
 Example.newtonsCradle.newtonsCradle = function(xx, yy, number, size, length) {
     var Composite = Matter.Composite,

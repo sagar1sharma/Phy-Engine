@@ -77,7 +77,6 @@ Example.car = function() {
         max: { x: 800, y: 600 }
     });
 
-    // context for MatterTools.Demo
     return {
         engine: engine,
         runner: runner,
@@ -94,7 +93,6 @@ Example.car.title = 'Car';
 Example.car.for = '>=0.14.2';
 
 /**
-* Creates a composite with simple car setup of bodies and constraints.
 * @method car
 * @param {number} xx
 * @param {number} yy

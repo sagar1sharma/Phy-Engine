@@ -1,6 +1,4 @@
 /**
-* The `Matter.Plugin` module contains functions for registering and installing plugins on modules.
-*
 * @class Plugin
 */
 

@@ -1,11 +1,4 @@
 /**
-* This module has now been replaced by `Matter.Detector`.
-*
-* All usage should be migrated to `Matter.Detector` or another alternative.
-* For back-compatibility purposes this module will remain for a short term and then later removed in a future release.
-*
-* The `Matter.Grid` module contains methods for creating and manipulating collision broadphase grid structures.
-*
 * @class Grid
 * @deprecated
 */

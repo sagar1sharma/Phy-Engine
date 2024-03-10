@@ -1,8 +1,4 @@
-/**
-* The `Matter.Body` module contains methods for creating and manipulating rigid bodies.
-* For creating bodies with common configurations such as rectangles, circles and other polygons see the module `Matter.Bodies`.
-*
-* See the included usage [examples](https://github.com/liabru/matter-js/tree/master/examples).
+/**d usage [examples](https://github.com/liabru/matter-js/tree/master/examples).
 
 * @class Body
 */
@@ -28,10 +24,6 @@ var Axes = require('../geometry/Axes');
     Body._baseDelta = 1000 / 60;
 
     /**
-     * Creates a new rigid body model. The options parameter is an object that specifies any properties you wish to override the defaults.
-     * All properties have default values, and many are pre-calculated automatically based on other properties.
-     * Vertices must be specified in clockwise order.
-     * See the properties section below for detailed information on what you can pass via the `options` object.
      * @method create
      * @param {} options
      * @return {body} body
@@ -108,9 +100,6 @@ var Axes = require('../geometry/Axes');
     };
 
     /**
-     * Returns the next unique group index for which bodies will collide.
-     * If `isNonColliding` is `true`, returns the next unique group index for which bodies will _not_ collide.
-     * See `body.collisionFilter` for more information.
      * @method nextGroup
      * @param {bool} [isNonColliding=false]
      * @return {Number} Unique group index
@@ -123,8 +112,6 @@ var Axes = require('../geometry/Axes');
     };
 
     /**
-     * Returns the next unique category bitfield (starting after the initial default category `0x0001`).
-     * There are 32 available. See `body.collisionFilter` for more information.
      * @method nextCategory
      * @return {Number} Unique category bitfield
      */

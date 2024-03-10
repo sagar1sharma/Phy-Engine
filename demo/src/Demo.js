@@ -14,8 +14,7 @@ var demo = function(examples, isDev) {
             exampleSelect: true
         },
         tools: {
-            inspector: true,
-            // gui: true
+            inspector: true
         },
         inline: false,
         preventZoom: true,
@@ -23,7 +22,6 @@ var demo = function(examples, isDev) {
         routing: true,
         startExample: 'mixed',
         examples: examples
-        // examples: examples.slice(0, 3).concat(examples.slice(4, 7)).concat(examples.slice(9, 10))
     });
 
     window.MatterDemoInstance = demo;

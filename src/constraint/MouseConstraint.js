@@ -1,9 +1,4 @@
 /**
-* The `Matter.MouseConstraint` module contains methods for creating mouse constraints.
-* Mouse constraints are used for allowing user interaction, providing the ability to move bodies via the mouse or touch.
-*
-* See the included usage [examples](https://github.com/liabru/matter-js/tree/master/examples).
-*
 * @class MouseConstraint
 */
 
